@@ -40,6 +40,9 @@
 			<configuration>
 				<destFile>${project.build.directory}/coverage-reports/jacoco.exec</destFile>
 				<propertyName>surefireArgLine</propertyName>
+				<descriptorRefs>
+         <descriptorRef>jar-with-dependencies</descriptorRef>
+       </descriptorRefs>
 			</configuration>
 		</execution>
 		<execution>
@@ -55,15 +58,6 @@
 		</execution>
 		
 	</executions>
-</plugin>
-	<plugin>
-     <artifactId>maven-assembly-plugin</artifactId>
-     <configuration>
-       <descriptorRefs>
-         <descriptorRef>jar-with-dependencies</descriptorRef>
-       </descriptorRefs>
-     </configuration>
-   </plugin>
 
 </plugins>
 </build>
