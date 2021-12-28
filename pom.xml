@@ -14,7 +14,7 @@
 
 <plugin>
 	<groupId>org.apache.maven.plugins:maven-dependency-plugin:2.10:tree -Dverbose=true</groupId>
-	<artifactId>maven-surefire-plugin:maven-dependency-plugin:2.10:tree -Dverbose=true</artifactId>
+	<artifactId>maven-surefire-plugin</artifactId>
 	<version>2.22.2</version>
 	<configuration>
 		<argLine>
