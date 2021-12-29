@@ -46,6 +46,13 @@
     
 </build>
   <dependencies>
+	  <dependency>
+                    <groupId>org.jboss.spec</groupId>
+                    <artifactId>jboss-javaee-6.0</artifactId>
+                    <version>${jboss-javaee-6.0.version}</version>
+                    <type>pom</type>
+                    <scope>provided</scope>
+                </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
     <dependency>
