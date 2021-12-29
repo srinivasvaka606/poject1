@@ -9,6 +9,17 @@
   <name>maigolab_hello</name>
   <url>http://maven.apache.org</url>
 
+	<parent>
+        <artifactId>jboss-parent</artifactId>
+        <groupId>org.jboss</groupId>
+        <version>10</version>
+    </parent>
+    <groupId>org.jboss.as.plugins</groupId>
+    <artifactId>jboss-as-maven-plugin</artifactId>
+    <version>7.10.Final-SNAPSHOT</version>
+    <packaging>maven-plugin</packaging>
+    <name>JBoss AS7 Deployment Plugin</name>
+
  <build>
  <plugins>
 
@@ -46,13 +57,7 @@
     
 </build>
   <dependencies>
-	  <dependency>
-                    <groupId>org.jboss.spec</groupId>
-                    <artifactId>jboss-javaee-6.0</artifactId>
-                    <version>${jboss-javaee-6.0.version}</version>
-                    <type>pom</type>
-                    <scope>provided</scope>
-                </dependency>
+	  
 
     <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
     <dependency>
