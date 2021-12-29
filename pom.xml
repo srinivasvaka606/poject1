@@ -18,12 +18,6 @@
 	
  <build>
  <plugins>
-	 <plugin>
-    <groupId>org.jboss.as.plugins</groupId>
-    <artifactId>jboss-as-maven-plugin</artifactId>
-    <version>7.10.Final-SNAPSHOT</version>
-		<plugin>
-
 
 <plugin>
         <groupId>org.apache.maven.plugins</groupId>
