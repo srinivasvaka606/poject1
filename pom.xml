@@ -14,14 +14,18 @@
         <groupId>org.jboss</groupId>
         <version>10</version>
     </parent>
+	
+	
+ <build>
+ <plugins>
+	 <plugin>
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
     <version>7.10.Final-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>JBoss AS7 Deployment Plugin</name>
+		<plugin>
 
- <build>
- <plugins>
 
 <plugin>
         <groupId>org.apache.maven.plugins</groupId>
