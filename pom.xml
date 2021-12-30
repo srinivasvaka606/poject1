@@ -7,20 +7,20 @@
   <version>1.0.0</version>
   <name>maigolab_hello</name>
   <url>http://maven.apache.org</url>
-	
-		
- <build>
- <plugins>
-	 
-	 <pluginManagement>
-            <plugins>
-		    <pluginRepositories>
+<pluginRepositories>
         <pluginRepository>
             <id>jfrog-plugins-release</id>
             <name>plugins-release</name>
             <url>https://oss.jfrog.org/artifactory/plugins-release</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>	
+		
+ <build>
+ 
+	 
+	 <pluginManagement>
+            <plugins>
+		    
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
@@ -38,6 +38,8 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+	 
+	 <plugins>
 
 <plugin>
         <groupId>org.apache.maven.plugins</groupId>
